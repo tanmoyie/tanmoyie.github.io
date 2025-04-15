@@ -22,8 +22,8 @@
       </p>
     </td>
     <td style="text-align: center; width: 60%;">
-      <a href="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/arctic_response_animation.gif" target="_blank">
-      <img src="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/arctic_response_animation.gif" alt="Animated Arctic Response" width="350">
+      <a href="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Canadian%20Arctic%20GIS%20JP3.gif" target="_blank">
+      <img src="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Canadian%20Arctic%20GIS%20JP3.gif" alt="Animated Arctic Response" width="350">
       </a>
     </td>
   </tr>
