@@ -60,8 +60,9 @@
       </p>
     </td>
     <td style="text-align: center; width: 60%;">
+      <a href="https://raw.githubusercontent.com/tanmoyie/CVRPTW/main/optimized_network_P-n16-k8.png" target="_blank">
       <img src="https://github.com/user-attachments/assets/8bba41cb-f43c-4585-b706-bf52a7c359ba" alt="Optimized Network" width="250">
-    </td>
+    </td> 
   </tr>
 </table>
 
