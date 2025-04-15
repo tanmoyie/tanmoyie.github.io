@@ -22,16 +22,19 @@
       </p>
     </td>
     <td style="text-align: center; width: 60%;">
-      <img src="https://github.com/user-attachments/assets/4c95b5f5-f612-4ded-9852-1e7cc0749374" alt="Canadian Arctic" width="350">
+      <a href="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/arctic_response_animation.gif" target="_blank">
+      <img src="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/arctic_response_animation.gif" alt="Animated Arctic Response" width="350">
+      </a>
     </td>
   </tr>
 </table>
 
-
 <table>
   <tr>
     <td style="text-align: center; width: 40%;">
+      <a href="https://github.com/user-attachments/assets/7e4226d0-9d68-4073-87d2-6661799b5f24" target="_blank">
       <img src="https://github.com/user-attachments/assets/7e4226d0-9d68-4073-87d2-6661799b5f24" alt="Oil spill incident" width="250">
+      </a>
     </td>
     <td style="vertical-align: top; width: 60%;">
       <h2>🛢️ Machine Learning to Predict Oil Spill Size</h2>
