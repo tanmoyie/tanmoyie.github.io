@@ -84,7 +84,7 @@
       <h2> Multiobjective Facility Location Model for Optimizing Arctic Oil-Spill Response</h2>
       <p>
         ✅ Problem Statement: Maximize spill coverage (and maximize effectiveness and minimize response time) and minimize cost)  <br>
-        ⚡ Action: <br> Formulate the problem into a mathematical optimization and Design a solution algorithm. Solve the large-scale problem using Branch & Cut exact algorithm <br>
+        ⚡ Action: Formulate the problem into a mathematical optimization and Design a solution algorithm. Solve the large-scale problem using Branch & Cut exact algorithm <br>
         🔧 Tools: Python, Gurobi, B&C <br>
         📊 Result: 90% spill coverage in Arctic oil spill accidents
       </p>
