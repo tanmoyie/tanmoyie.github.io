@@ -12,11 +12,12 @@
 <table>
   <tr>
     <td style="vertical-align: top; width: 40%;">
-      <h2>A mixed integer programming approach to improve oil spill response resource allocation </h2>
+      <h2>A mixed integer programming approach to improve spill response</h2>
       <p>
-        Develop a Mixed Integer Programming (MIP) optimization model for an oil spill problem to help strategic decision-making. <br>
-        🔧 Tools: Python, Gurobi <br>
-        📊 Result: Improved model runtime by 14% over baseline solver. <br><br>
+      ✅ Problem Statement: How many and where to build oil spill response stations in Canadian Arctic? Will additional response stations improve coverage?<br>
+      ⚡ Action: Build optimization model to find optimal facility location and allocation. This Optimization Model Maximize spill coverage while ensuring minimum response time, and sensitive areas are covered.<br>
+      🔧 Tools: Python, Gurobi, MILP <br>
+      📊 Result: 95% spill coverage; Build 5 response stations <br>
       🔗 <a href="https://doi.org/10.1016/j.multra.2023.100110">Publication</a>  | 
         <a href="https://github.com/tanmoyie/Location-allocation-using-MIP">Source code</a>  
       </p>
@@ -36,10 +37,10 @@
     <td style="vertical-align: top; width: 60%;">
       <h2>🛢️ Machine Learning to Predict Oil Spill Size</h2>
       <p>
-        Predict damage and oil outflow in tanker collision accidents using:<br>
-        (i) Deep Neural Network, (ii) Gradient Boosted Regression Tree, and (iii) Polynomial Regression models — trained on simulated data via Monte Carlo methods. <br><br>
-        🔧 <strong>Tools:</strong> Python, Gurobi <br>
-        📊 <strong>Result:</strong> Improved runtime by 14% over baseline solver. <br><br>
+        ✅ Problem Statement: Predict damage and oil outflow in tanker collision accidents<br>
+        ⚡ Action:  Deveoloped (i) Deep Neural Network, (ii) Gradient Boosted Regression Tree, and (iii) Polynomial Regression models — trained on simulated data via Monte Carlo methods. <br>
+        🔧 Tools: <strong>Tools:</strong> Python, SQL, Pytorch, Sklearn <br>
+        📊 Results: <strong>Result:</strong> 92% prediction accuracy by AI models <br><br>
         🔗 <a href="https://www.linkedin.com/pulse/machine-learning-model-predict-spill-volume-shipping-accidents-das">LinkedIn blog</a> |
         <a href="https://doi.org/10.1177/14750902211039659">Publication</a> |
         <a href="https://github.com/tanmoyie/Deep-Neural-Network">Source Code</a>
@@ -53,7 +54,8 @@
     <td style="vertical-align: top; width: 40%;">
       <h2>📈 Solving Vehicle Routing Problem using Column Generation </h2>
       <p>
-        Introduce the problem... How fast 12times than solver like Gurobi - outcome... <br><br>
+        ✅ Problem Statement: Introduce the problem... How fast 12times than solver like Gurobi - outcome... <br>
+        ⚡ Action: <br>
         🔧 Tools: Python, Gurobi <br>
         📊 Result: Improved model runtime by 14% over baseline solver.
       </p>
@@ -75,11 +77,10 @@
     <td style="vertical-align: top; width: 40%;">
       <h2> Multiobjective Facility Location Model for Optimizing Arctic Oil-Spill Response</h2>
       <p>
-        - Formulate the problem into a mathematical optimization (Maximize spill coverage (and maximize effectiveness and minimize response time) and minimize cost) and Design a solution algorithm
-- 90% spill coverage in Arctic oil spill accidents
-- what about large-scale++ <br>
-        🔧 Tools: Python, Gurobi <br>
-        📊 Result: Improved model runtime by 14% over baseline solver.
+        ✅ Problem Statement: Maximize spill coverage (and maximize effectiveness and minimize response time) and minimize cost)  <br>
+        ⚡ Action: <br> Formulate the problem into a mathematical optimization (and Design a solution algorithm). Solve the large-scale problem using Branch & Cut exact algorithm <br>
+        🔧 Tools: Python, Gurobi, B&C <br>
+        📊 Result: 90% spill coverage in Arctic oil spill accidents
       </p>
     </td>
 
@@ -96,7 +97,7 @@
   
   <div>
     <p>
-      I love solving problems using data. I hold a PhD in Industrial Engineering (Operations Research specialization) from Dalhousie University.  I’m a postdoctoral researcher in Operations Research and my focus is on optimizing vehicle routing, inc. developing exact algorithms including Column Generation and Benders Decomposition, and AI-driven logistics systems.<br>
+      I love solving problems using data. I have 5+ years of experience solving transportation and FinTech problems using AI and operations research tools. I hold a PhD in Industrial Engineering (Operations Research specialization) from Dalhousie University.  I’m a postdoctoral researcher in Operations Research and my focus is on optimizing vehicle routing, inc. developing exact algorithms including Column Generation and Benders Decomposition, and AI-driven logistics systems.<br>
     </p>
   </div>
 </div>
@@ -109,4 +110,4 @@
 2. Das, T., & Goerlandt, F. (2022). Bayesian inference modeling to rank response technologies in arctic marine oil spills. Marine Pollution Bulletin, 185, 114203. [https://doi.org/10.1016/j.marpolbul.2022.114203](https://doi.org/10.1016/j.marpolbul.2022.114203)
 3. Das, T., Goerlandt, F., & Tabri, K. (2021). An optimized metamodel for predicting damage and oil outflow in tanker collision accidents. Proceedings of the Institution of Mechanical Engineers, Part M: Journal of Engineering for the Maritime Environment, 236(2), 412–426. [https://doi.org/10.1177/14750902211039659](https://doi.org/10.1177/14750902211039659)
 4. Das, T., Goerlandt, F., & Pelot, R. (2024). Multiobjective Facility Location Model for Optimizing Arctic Oil-Spill Response, INFOR (under revision)
-5. Das, T., Goerlandt, F. (2025). Optimization under Uncertainty: Stochastic Facility Location Model for Oil Spill Response in Arctic, OMEGA (submitted)
+5. Das, T., Goerlandt, F. (2025). Optimization under Uncertainty: Stochastic Facility Location Model for Oil Spill Response in Arctic, OMEGA (submitted). [pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5191822)
