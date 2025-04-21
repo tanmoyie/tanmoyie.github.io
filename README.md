@@ -1,121 +1,91 @@
-<h3 align="center"> Operations Research Scientist </h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanmoy Das – Operations Research Scientist</title>
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
 
-<p align="center">
-<a href="https://linkedin.com/in/tanmoyie" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="tanmoyie" height="30" width="40" /></a>
-<a href="https://medium.com/@tanmoyie" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@tanmoyie" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/tanmoyie" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="tanmoyie" height="30" width="40" /></a>
-</p>
+  <header>
+    <h1 style="text-align: center;">Operations Research Scientist</h1>
+    <p style="text-align: center;">
+      <a href="https://linkedin.com/in/tanmoyie"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" width="30"></a>
+      <a href="https://medium.com/@tanmoyie"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="Medium" width="30"></a>
+      <a href="https://www.leetcode.com/tanmoyie"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="Leetcode" width="30"></a>
+    </p>
+  </header>
 
-# Featured Optimization Projects
+  <main>
+    <h2>Featured Optimization Projects</h2>
 
-
-<table>
-  <tr>
-    <td style="vertical-align: top; width: 40%;">
-      <h2>A mixed integer programming approach to improve spill response</h2>
+    <section>
+      <h3>A mixed integer programming approach to improve spill response</h3>
       <p>
-      ✅ Problem Statement: How many and where to build oil spill response stations in Canadian Arctic? Will additional response stations improve coverage?<br>
-      ⚡ Action: Build optimization model to find optimal facility location and allocation. This Optimization Model Maximize spill coverage while ensuring minimum response time, and sensitive areas are covered.<br>
-      📊 Result: 95% spill coverage; Build 5 response stations <br>
-      🔗 <a href="https://doi.org/10.1016/j.multra.2023.100110">Publication</a>  | 
-        <a href="https://github.com/tanmoyie/Location-allocation-using-MIP">Source code</a>  
+        ✅ Problem Statement: How many and where to build oil spill response stations in Canadian Arctic?<br>
+        ⚡ Action: Built optimization model to find optimal facility location and allocation.<br>
+        📊 Result: 95% spill coverage; Built 5 response stations.<br>
+        🔗 <a href="https://doi.org/10.1016/j.multra.2023.100110">Publication</a> |
+        <a href="https://github.com/tanmoyie/Location-allocation-using-MIP">Source code</a>
       </p>
-    </td>
-    <td style="text-align: center; width: 60%;">
-      <a href="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Canadian%20Arctic%20GIS%20JP3.gif" target="_blank">
-      <img src="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Canadian%20Arctic%20GIS%20JP3.gif" alt="Animated Arctic Response" width="350">
-      </a>
-    </td>
-  </tr>
-</table>
+      <img src="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Canadian%20Arctic%20GIS%20JP3.gif" alt="Animated Arctic Response">
+    </section>
 
-<table>
-  <tr>
-    <td style="text-align: center; width: 40%;">
-      <a href="https://github.com/user-attachments/assets/7e4226d0-9d68-4073-87d2-6661799b5f24" target="_blank">
-      <img src="https://github.com/user-attachments/assets/7e4226d0-9d68-4073-87d2-6661799b5f24" alt="Oil spill incident" width="250">
-      </a>
-    </td>
-    <td style="vertical-align: top; width: 60%;">
-      <h2>🛢️ Machine Learning to Predict Oil Spill Size</h2>
+    <section>
+      <h3>🛢️ Machine Learning to Predict Oil Spill Size</h3>
+      <img src="https://github.com/user-attachments/assets/7e4226d0-9d68-4073-87d2-6661799b5f24" alt="Oil spill incident">
       <p>
         ✅ Problem Statement: Predict damage and oil outflow in tanker collision accidents<br>
-        ⚡ Action:  Deveoloped (i) Deep Neural Network, (ii) Gradient Boosted Regression Tree, and (iii) Polynomial Regression models — trained on simulated data via Monte Carlo methods. <br>
-        🔧 Tools: Python, SQL, Pytorch, Sklearn <br>
-        📊 Results: 92% prediction accuracy by AI models <br><br>
+        ⚡ Action: Developed AI models: DNN, GBRT, Polynomial Regression using Monte Carlo simulations<br>
+        🔧 Tools: Python, SQL, PyTorch, Sklearn<br>
+        📊 Results: 92% prediction accuracy<br><br>
         🔗 <a href="https://www.linkedin.com/pulse/machine-learning-model-predict-spill-volume-shipping-accidents-das">LinkedIn blog</a> |
         <a href="https://doi.org/10.1177/14750902211039659">Publication</a> |
         <a href="https://github.com/tanmoyie/Deep-Neural-Network">Source Code</a>
       </p>
-    </td>
-  </tr>
-</table>
+    </section>
 
-<table>
-  <tr>
-    <td style="vertical-align: top; width: 40%;">
-      <h2>📈 Solving Vehicle Routing Problem using Column Generation </h2>
+    <section>
+      <h3>📈 Solving Vehicle Routing Problem using Column Generation</h3>
       <p>
-        ✅ Problem Statement: Solving a VRP with capacity and time window constraint (CVRPTW) <br>
-        ⚡ Action: Model MILP and exact solution algorithm <br>
-        🔧 Tools: Python, Gurobi <br>
-        📊 Result: Improved model runtime by 14% over baseline solver.
+        ✅ Problem Statement: CVRPTW<br>
+        ⚡ Action: Modeled MILP and exact solution algorithm<br>
+        🔧 Tools: Python, Gurobi<br>
+        📊 Result: 14% runtime improvement
       </p>
-    </td>
-    <td style="text-align: center; width: 60%;">
-      <a href="https://raw.githubusercontent.com/tanmoyie/CVRPTW/main/optimized_network_P-n16-k8.png" target="_blank">
-      <img src="https://github.com/user-attachments/assets/8bba41cb-f43c-4585-b706-bf52a7c359ba" alt="Optimized Network" width="250">
-      </a>
-    </td> 
-  </tr>
-</table>
+      <img src="https://github.com/user-attachments/assets/8bba41cb-f43c-4585-b706-bf52a7c359ba" alt="Optimized Network">
+    </section>
 
-
-
-
-<table>
-  <tr>
-    <td style="text-align: center; width: 60%;">
-       <a href="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Graphical%20abstract%20Multiobjective%20Facility%20Location%20Model.png" target="_blank">
-        <img src="https://github.com/user-attachments/assets/9ae7ad83-b444-4212-9553-d48a6d25300b" alt="graphical abstract" width="250">
-      </a>
-    </td>
-    <td style="vertical-align: top; width: 40%;">
-      <h2> Multiobjective Facility Location Model for Optimizing Arctic Oil-Spill Response</h2>
+    <section>
+      <h3>Multiobjective Facility Location Model for Arctic Oil-Spill Response</h3>
+      <img src="https://github.com/user-attachments/assets/9ae7ad83-b444-4212-9553-d48a6d25300b" alt="Graphical abstract">
       <p>
-        ✅ Problem Statement: Maximize spill coverage (and maximize effectiveness and minimize response time) and minimize cost)  <br>
-        ⚡ Action: Formulate the problem into a mathematical optimization and Design a solution algorithm. Solve the large-scale problem using Branch & Cut exact algorithm <br>
-        🔧 Tools: Python, Gurobi, B&C <br>
-        📊 Result: 90% spill coverage in Arctic oil spill accidents
+        ✅ Problem Statement: Maximize spill coverage & minimize cost and response time<br>
+        ⚡ Action: Developed mathematical model and solved using Branch & Cut<br>
+        🔧 Tools: Python, Gurobi<br>
+        📊 Result: 90% spill coverage
       </p>
-    </td>
+    </section>
 
-  </tr>
-</table>
+    <h2>About Me</h2>
+    <section>
+      <p>
+        I am passionate about solving real-world problems through data-driven decision-making. With over 5 years of experience in AI and operations research, I work on practical solutions in logistics and finance. Currently, I’m a postdoctoral scientist specializing in vehicle routing, Column Generation, Benders Decomposition, and heuristics.<br><br>
+        I hold a Ph.D. in Industrial Engineering (Operations Research specialization) from Dalhousie University, Canada.
+      </p>
+    </section>
 
+    <h2>Publications</h2>
+    <ol>
+      <li>Das, T., Goerlandt, F., & Pelot, R. (2024). A Mixed Integer Programming Approach to Improve Oil Spill Response. <i>Multimodal Transportation</i>. <a href="https://doi.org/10.1016/j.multra.2023.100110">DOI</a></li>
+      <li>Das, T., & Goerlandt, F. (2022). Bayesian inference for response technology ranking. <i>Marine Pollution Bulletin</i>. <a href="https://doi.org/10.1016/j.marpolbul.2022.114203">DOI</a></li>
+      <li>Das, T., Goerlandt, F., & Tabri, K. (2021). Optimized metamodel for oil tanker collisions. <i>Journal of Engineering for the Maritime Environment</i>. <a href="https://doi.org/10.1177/14750902211039659">DOI</a></li>
+      <li>Das, T., Goerlandt, F., & Pelot, R. (2024). Multiobjective Facility Location Model. <i>INFOR</i> (under revision)</li>
+      <li>Das, T., Goerlandt, F. (2025). Optimization under Uncertainty. <i>OMEGA</i> (submitted). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5191822">Pre-print</a></li>
+    </ol>
 
+  </main>
 
-
-
-# About me
-<div style="display: flex; align-items: center; gap: 20px;">
-  <img src="willaddsoon++" alt="Tanmoy's Headshot" width="192" height="192" style="border-radius: 10px;">
-  
-  <div>
-    <p>
-      I am passionate about solving real-world problems through data-driven decision-making.I have over 5 years of experience using AI and operations research to solve problems in transportation and FinTech. My work combines data-driven analysis with practical solutions in logistics and AI systems.<br>
-I am a postdoctoral scientist in Operations Research, focusing on vehicle routing optimization, the development of exact algorithms such as Column Generation and Benders Decomposition, and heuristics. I hold a Ph.D. in Industrial Engineering with a specialization in Operations Research from Dalhousie University, Canada.<br>
-    </p>
-  </div>
-</div>
-
-
-
-
-# Publications
-1. Das, T., Goerlandt, F., & Pelot, R. (2024). A Mixed Integer Programming Approach to Improve Oil Spill Response Resource Allocation in the Canadian Arctic. Multimodal Transportation, 3(1). [https://doi.org/10.1016/j.multra.2023.100110](https://doi.org/10.1016/j.multra.2023.100110)
-2. Das, T., & Goerlandt, F. (2022). Bayesian inference modeling to rank response technologies in arctic marine oil spills. Marine Pollution Bulletin, 185, 114203. [https://doi.org/10.1016/j.marpolbul.2022.114203](https://doi.org/10.1016/j.marpolbul.2022.114203)
-3. Das, T., Goerlandt, F., & Tabri, K. (2021). An optimized metamodel for predicting damage and oil outflow in tanker collision accidents. Proceedings of the Institution of Mechanical Engineers, Part M: Journal of Engineering for the Maritime Environment, 236(2), 412–426. [https://doi.org/10.1177/14750902211039659](https://doi.org/10.1177/14750902211039659)
-4. Das, T., Goerlandt, F., & Pelot, R. (2024). Multiobjective Facility Location Model for Optimizing Arctic Oil-Spill Response, INFOR (under revision)
-5. Das, T., Goerlandt, F. (2025). Optimization under Uncertainty: Stochastic Facility Location Model for Oil Spill Response in Arctic, OMEGA (submitted). [pre-print](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5191822), [graphical abstract](https://github.com/tanmoyie/Decision-Support-Tool/blob/main/Graphical_Abstract_Optimization_under_Uncertainty_Stochastic_Facility_Location_Model.pdf)
-   
+</body>
+</html>
