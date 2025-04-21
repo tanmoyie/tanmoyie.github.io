@@ -49,12 +49,41 @@
         max-width: 300px;
       }
     }
+
+    .typewriter {
+    display: inline-block;
+    overflow: hidden;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: monospace;
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+
+  @media (max-width: 600px) {
+    .typewriter {
+      font-size: 1.2rem;
+    }
+  }
   </style>
 </head>
 <body>
 
   <header>
-    <h1 style="text-align: center;">Operations Research Scientist</h1>
+    <h1 style="text-align: center;"> TANMOY DAS </h1>
+    <p style="text-align: center;">
+      <span class="typewriter">Operations Research Scientist • AI </span>
+    </p>
     <p style="text-align: center;">
       <a href="https://linkedin.com/in/tanmoyie" target="_blank">
         <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" width="30">
