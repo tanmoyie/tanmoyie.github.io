@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tanmoy Das – Operations Research Scientist</title>
   <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
-  <!-- Force Light Mode -->
+
   <style>
     :root {
       color-scheme: light;
@@ -15,8 +15,41 @@
       --accent: #005cc5;
       --border: #e0e0e0;
     }
+
+    .project-flex {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .project-flex img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .project-text {
+      max-width: 600px;
+    }
+
+    @media (min-width: 768px) {
+      .project-flex {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      .project-text {
+        flex: 1;
+        padding-right: 1rem;
+      }
+
+      .project-flex img {
+        max-width: 300px;
+      }
+    }
   </style>
-</head>
 </head>
 <body>
 
@@ -38,63 +71,81 @@
   <main>
     <h2>Featured Optimization Projects</h2>
 
+    <!-- Project 1 -->
     <section>
-      <h3>A mixed integer programming approach to improve spill response</h3>
-      <p>
-        ✅ Problem: Where to build oil spill response stations in Canadian Arctic?<br>
-        ⚡ Built optimization model for facility location and allocation.<br>
-        📊 95% spill coverage; built 5 response stations.<br>
-        🔗 <a href="https://doi.org/10.1016/j.multra.2023.100110">Publication</a> | 
-        <a href="https://github.com/tanmoyie/Location-allocation-using-MIP">Source code</a>
-      </p>
-      <!-- <img src="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Canadian%20Arctic%20GIS%20JP3.gif" alt="Animated Arctic Response"> -->
-      <a href="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Canadian%20Arctic%20GIS%20JP3.gif" target="_blank">
-      <img src="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Canadian%20Arctic%20GIS%20JP3.gif" alt="Animated Arctic Response">
-      </a>
+      <div class="project-flex">
+        <div class="project-text">
+          <h3>A mixed integer programming approach to improve spill response</h3>
+          <p>
+            ✅ Problem: Where to build oil spill response stations in Canadian Arctic?<br>
+            ⚡ Built optimization model for facility location and allocation.<br>
+            📊 95% spill coverage; built 5 response stations.<br>
+            🔗 <a href="https://doi.org/10.1016/j.multra.2023.100110">Publication</a> | 
+            <a href="https://github.com/tanmoyie/Location-allocation-using-MIP">Source code</a>
+          </p>
+        </div>
+        <a href="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Canadian%20Arctic%20GIS%20JP3.gif" target="_blank">
+          <img src="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Canadian%20Arctic%20GIS%20JP3.gif" alt="Animated Arctic Response">
+        </a>
+      </div>
     </section>
 
+    <!-- Project 2 -->
     <section>
-      <h3>🛢️ Machine Learning to Predict Oil Spill Size</h3>
-      <p>
-        ✅ Problem: Predict damage and oil outflow from collisions<br>
-        ⚡ Developed DNN, GBRT, Polynomial Regression (with Monte Carlo simulated data)<br>
-        🔧 Tools: Python, SQL, PyTorch, Scikit-learn<br>
-        📊 92% prediction accuracy<br><br>
-        🔗 <a href="https://www.linkedin.com/pulse/machine-learning-model-predict-spill-volume-shipping-accidents-das">LinkedIn blog</a> |
-        <a href="https://doi.org/10.1177/14750902211039659">Publication</a> |
-        <a href="https://github.com/tanmoyie/Deep-Neural-Network">Source code</a>
-      </p>
-     <!-- <img src="https://github.com/user-attachments/assets/7e4226d0-9d68-4073-87d2-6661799b5f24" alt="Oil spill incident"> -->
-      <a href="https://github.com/user-attachments/assets/7e4226d0-9d68-4073-87d2-6661799b5f24">
-      <img src="https://github.com/user-attachments/assets/7e4226d0-9d68-4073-87d2-6661799b5f24" alt="Oil spill incident">
-      </a>
+      <div class="project-flex">
+        <div class="project-text">
+          <h3>🛢️ Machine Learning to Predict Oil Spill Size</h3>
+          <p>
+            ✅ Problem: Predict damage and oil outflow from collisions<br>
+            ⚡ Developed DNN, GBRT, Polynomial Regression (with Monte Carlo simulated data)<br>
+            🔧 Tools: Python, SQL, PyTorch, Scikit-learn<br>
+            📊 92% prediction accuracy<br><br>
+            🔗 <a href="https://www.linkedin.com/pulse/machine-learning-model-predict-spill-volume-shipping-accidents-das">LinkedIn blog</a> |
+            <a href="https://doi.org/10.1177/14750902211039659">Publication</a> |
+            <a href="https://github.com/tanmoyie/Deep-Neural-Network">Source code</a>
+          </p>
+        </div>
+        <a href="https://github.com/user-attachments/assets/7e4226d0-9d68-4073-87d2-6661799b5f24" target="_blank">
+          <img src="https://github.com/user-attachments/assets/7e4226d0-9d68-4073-87d2-6661799b5f24" alt="Oil spill incident">
+        </a>
+      </div>
     </section>
 
+    <!-- Project 3 -->
     <section>
-      <h3>📈 Solving Vehicle Routing Problem using Column Generation</h3>
-      <p>
-        ✅ Problem: CVRPTW<br>
-        ⚡ Modeled MILP and exact algorithm<br>
-        🔧 Tools: Python, Gurobi<br>
-        📊 14% runtime improvement
-      </p>
-      <a href="https://raw.githubusercontent.com/tanmoyie/CVRPTW/main/optimized_network_P-n16-k8.png" target="_blank">
-      <img src="https://github.com/user-attachments/assets/8bba41cb-f43c-4585-b706-bf52a7c359ba" alt="Optimized Network">
-      </a>
+      <div class="project-flex">
+        <div class="project-text">
+          <h3>📈 Solving Vehicle Routing Problem using Column Generation</h3>
+          <p>
+            ✅ Problem: CVRPTW<br>
+            ⚡ Modeled MILP and exact algorithm<br>
+            🔧 Tools: Python, Gurobi<br>
+            📊 14% runtime improvement
+          </p>
+        </div>
+        <a href="https://raw.githubusercontent.com/tanmoyie/CVRPTW/main/optimized_network_P-n16-k8.png" target="_blank">
+          <img src="https://github.com/user-attachments/assets/8bba41cb-f43c-4585-b706-bf52a7c359ba" alt="Optimized Network">
+        </a>
+      </div>
     </section>
 
+    <!-- Project 4 -->
     <section>
-      <h3>Multiobjective Facility Location Model for Arctic Oil-Spill Response</h3>
-      <p>
-        ✅ Problem: Maximize spill coverage, minimize cost and response time<br>
-        ⚡ Developed MILP model and solved with Branch & Cut<br>
-        🔧 Tools: Python, Gurobi<br>
-        📊 90% spill coverage
-      </p>
-       <a href="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Graphical%20abstract%20Multiobjective%20Facility%20Location%20Model.png" target="_blank">
-        <img src="https://github.com/user-attachments/assets/9ae7ad83-b444-4212-9553-d48a6d25300b" alt="graphical abstract">
-      </a>
-      </section>
+      <div class="project-flex">
+        <div class="project-text">
+          <h3>Multiobjective Facility Location Model for Arctic Oil-Spill Response</h3>
+          <p>
+            ✅ Problem: Maximize spill coverage, minimize cost and response time<br>
+            ⚡ Developed MILP model and solved with Branch & Cut<br>
+            🔧 Tools: Python, Gurobi<br>
+            📊 90% spill coverage
+          </p>
+        </div>
+        <a href="https://raw.githubusercontent.com/tanmoyie/Decision-Support-Tool/main/Graphical%20abstract%20Multiobjective%20Facility%20Location%20Model.png" target="_blank">
+          <img src="https://github.com/user-attachments/assets/9ae7ad83-b444-4212-9553-d48a6d25300b" alt="Graphical Abstract">
+        </a>
+      </div>
+    </section>
 
     <h2>About Me</h2>
     <section>
@@ -112,7 +163,8 @@
       <li>Das, T., & Goerlandt, F. (2022). Bayesian inference modeling to rank response technologies. <i>Marine Pollution Bulletin</i>. <a href="https://doi.org/10.1016/j.marpolbul.2022.114203">DOI</a></li>
       <li>Das, T., Goerlandt, F., & Tabri, K. (2021). Metamodel for predicting oil outflow in tanker collisions. <i>Journal of Engineering for the Maritime Environment</i>. <a href="https://doi.org/10.1177/14750902211039659">DOI</a></li>
       <li>Das, T., Goerlandt, F., & Pelot, R. (2024). Multiobjective Facility Location Model for Arctic Oil-Spill Response, <i>INFOR</i> (under revision)</li>
-      <li>Das, T., Goerlandt, F. (2025). Optimization under Uncertainty: Stochastic Facility Location Model, <i>OMEGA</i> (submitted). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5191822">Pre-print, </a>  <a href="https://github.com/tanmoyie/Decision-Support-Tool/blob/main/Graphical_Abstract_Optimization_under_Uncertainty_Stochastic_Facility_Location_Model.pdf">Graphical abstract</a></li>
+      <li>Das, T., Goerlandt, F. (2025). Optimization under Uncertainty: Stochastic Facility Location Model, <i>OMEGA</i> (submitted). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5191822">Pre-print, </a>
+              <a href="https://github.com/tanmoyie/Decision-Support-Tool/blob/main/Graphical_Abstract_Optimization_under_Uncertainty_Stochastic_Facility_Location_Model.pdf"> Graphical abstract</a></li>
     </ol>
   </main>
 
