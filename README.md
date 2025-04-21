@@ -34,7 +34,6 @@
 
     <section>
       <h3>🛢️ Machine Learning to Predict Oil Spill Size</h3>
-      <img src="https://github.com/user-attachments/assets/7e4226d0-9d68-4073-87d2-6661799b5f24" alt="Oil spill incident">
       <p>
         ✅ Problem Statement: Predict damage and oil outflow in tanker collision accidents<br>
         ⚡ Action: Developed AI models: DNN, GBRT, Polynomial Regression using Monte Carlo simulations<br>
@@ -44,6 +43,7 @@
         <a href="https://doi.org/10.1177/14750902211039659">Publication</a> |
         <a href="https://github.com/tanmoyie/Deep-Neural-Network">Source Code</a>
       </p>
+       <img src="https://github.com/user-attachments/assets/7e4226d0-9d68-4073-87d2-6661799b5f24" alt="Oil spill incident">
     </section>
 
     <section>
@@ -59,13 +59,13 @@
 
     <section>
       <h3>Multiobjective Facility Location Model for Arctic Oil-Spill Response</h3>
-      <img src="https://github.com/user-attachments/assets/9ae7ad83-b444-4212-9553-d48a6d25300b" alt="Graphical abstract">
       <p>
         ✅ Problem Statement: Maximize spill coverage & minimize cost and response time<br>
         ⚡ Action: Developed mathematical model and solved using Branch & Cut<br>
         🔧 Tools: Python, Gurobi<br>
         📊 Result: 90% spill coverage
       </p>
+        <img src="https://github.com/user-attachments/assets/9ae7ad83-b444-4212-9553-d48a6d25300b" alt="Graphical abstract">
     </section>
 
     <h2>About Me</h2>
@@ -82,7 +82,7 @@
       <li>Das, T., & Goerlandt, F. (2022). Bayesian inference for response technology ranking. <i>Marine Pollution Bulletin</i>. <a href="https://doi.org/10.1016/j.marpolbul.2022.114203">DOI</a></li>
       <li>Das, T., Goerlandt, F., & Tabri, K. (2021). Optimized metamodel for oil tanker collisions. <i>Journal of Engineering for the Maritime Environment</i>. <a href="https://doi.org/10.1177/14750902211039659">DOI</a></li>
       <li>Das, T., Goerlandt, F., & Pelot, R. (2024). Multiobjective Facility Location Model. <i>INFOR</i> (under revision)</li>
-      <li>Das, T., Goerlandt, F. (2025). Optimization under Uncertainty. <i>OMEGA</i> (submitted). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5191822">Pre-print</a></li>
+      <li>Das, T., Goerlandt, F. (2025). Optimization under Uncertainty. <i>OMEGA</i> (submitted). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5191822">Pre-print, </a> <a href="https://github.com/tanmoyie/Decision-Support-Tool/blob/main/Graphical_Abstract_Optimization_under_Uncertainty_Stochastic_Facility_Location_Model.pdf">Graphical abstract</a> </li>
     </ol>
 
   </main>
