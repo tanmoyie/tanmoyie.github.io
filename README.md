@@ -82,7 +82,6 @@
       <li>Das, T., & Goerlandt, F. (2022). Bayesian inference for response technology ranking. <i>Marine Pollution Bulletin</i>. <a href="https://doi.org/10.1016/j.marpolbul.2022.114203">DOI</a></li>
       <li>Das, T., Goerlandt, F., & Tabri, K. (2021). Optimized metamodel for oil tanker collisions. <i>Journal of Engineering for the Maritime Environment</i>. <a href="https://doi.org/10.1177/14750902211039659">DOI</a></li>
       <li>Das, T., Goerlandt, F., & Pelot, R. (2024). Multiobjective Facility Location Model. <i>INFOR</i> (under revision)</li>
-      <!-- <li>Das, T., Goerlandt, F. (2025). Optimization under Uncertainty. <i>OMEGA</i> (submitted). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5191822">Pre-print, </a> <a href="https://github.com/tanmoyie/Decision-Support-Tool/blob/main/Graphical_Abstract_Optimization_under_Uncertainty_Stochastic_Facility_Location_Model.pdf">Graphical abstract</a> </li> -->
     </ol>
 
   </main>
