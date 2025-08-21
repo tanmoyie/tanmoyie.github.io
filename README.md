@@ -63,7 +63,7 @@
         ✅ Problem Statement: Maximize spill coverage & minimize cost and response time<br>
         ⚡ Action: Developed mathematical model and solved using Branch & Cut<br>
         🔧 Tools: Python, Gurobi<br>
-        📊 Result: 90% spill coverage
+        📊 Result: 90% spill coverage, [Publication](🔗 <a href="https://doi.org/10.1016/j.multra.2023.100110">Publication</a> |)
       </p>
         <img src="https://github.com/user-attachments/assets/9ae7ad83-b444-4212-9553-d48a6d25300b" alt="Graphical abstract">
     </section>
