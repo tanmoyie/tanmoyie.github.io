@@ -81,7 +81,7 @@
       <li>Das, T., Goerlandt, F., & Pelot, R. (2024). A Mixed Integer Programming Approach to Improve Oil Spill Response. <i>Multimodal Transportation</i>. <a href="https://doi.org/10.1016/j.multra.2023.100110">DOI</a></li>
       <li>Das, T., & Goerlandt, F. (2022). Bayesian inference for response technology ranking. <i>Marine Pollution Bulletin</i>. <a href="https://doi.org/10.1016/j.marpolbul.2022.114203">DOI</a></li>
       <li>Das, T., Goerlandt, F., & Tabri, K. (2021). Optimized metamodel for oil tanker collisions. <i>Journal of Engineering for the Maritime Environment</i>. <a href="https://doi.org/10.1177/14750902211039659">DOI</a></li>
-      <li>Das, T., Goerlandt, F., & Pelot, R. (2024). Multiobjective Facility Location Model. <i>INFOR</i> (under revision)</li>
+      <li>Das, T., Goerlandt, F., & Pelot, R. (2024). Multiobjective Facility Location Model. <i>INFOR </i> <a href="https://doi.org/10.1080/03155986.2025.2539634">DOI</a> </li>
     </ol>
 
   </main>
